@@ -1,0 +1,89 @@
+.navbar {
+    text-decoration: none;
+    margin: 50px;
+    text-align: center;
+}
+
+
+.nav-item {
+    color: #eeeeee;
+}
+
+.nav-link:hover {
+    color: #ffbd39;
+}
+
+.front-name {
+    font: 50px Copperplate, Fantasy;
+
+}
+
+.front-name-hr {
+    width: 20%;
+    border-color: #000000;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+
+}
+
+.front-name-img {
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.front-nameh2 {
+    font: 30px Lucida Console, Monospace;
+}
+
+.front-hr {
+    color: #212529;
+}
+
+.front-work {
+    margin: 30px;
+}
+
+.projects {
+    margin: 50px;
+    font: 40px Copperplate, Fantasy;
+    color: #eeeeee;
+    background-color: #212529;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 25vw);
+    grid-gap: 5px;
+
+}
+
+.project-img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.about {
+    margin: 50px;
+    position: absolute;
+    border: 5px solid #212529;
+    padding-top: 30px;
+    padding-top: 30px;
+}
+
+.about-name {
+    font: 40px Copperplate, Fantasy;
+}
+
+.about-p {
+    font: 25px Lucida Console, Monospace;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.about-hr {
+    color: #ffbd39;
+    size: 50px;
+}
