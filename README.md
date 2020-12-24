@@ -6,5 +6,8 @@ For any query please contact.
 # Demo
 [Visit the Portfolio]('anshulchaudhary0677.github.io/portfolio-template')
 
-`Any changes are open to accept :)`
+# Note
+_the website will be updated timely with the additional features._
+
+`open to accept any changes :)`
 
