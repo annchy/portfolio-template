@@ -4,7 +4,7 @@ Open source Portfolio Website. It is free and accessible to anyone. Just fork th
 For any query please contact.
 
 # Demo
-[Visit the Portfolio Template]('https://anshulchaudhary0677.github.io/portfolio-template/')
+Visit the Portfolio Template : https://anshulchaudhary0677.github.io/portfolio-template
 
 # Note
 _the website will be updated timely with the additional features._
