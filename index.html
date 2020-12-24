@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-
+<!-- Name the title of the website whatever you wish to
+   -->
     <title>Portfolio</title>
+<!-- in the img folder replace the png with the icon you want to see on the title, rename that icon to portfolio.png   -->
+    <link href="img/portfolio.png" rel="icon">
 </head>
 
-<body style="background-color:#ffbd39;">
-    <!-- navbar -->
+<!--NOTE* :- don't change any other text apart from the personal information, otherwise the website might not looks the same and do NOT remove the credit part of the website for the authenticity.
+Updates will be coming soon. -->
+
+<body style="background-color : #ffbd39;">
+
+<!-- navbar opens -->
+    <!-- Here enter the name of the website in place of portfolio -->
     <nav class="navbar navbar-dark bg-dark">
         <h1><a class="navbar" href="#"><span class="navbar-brand mb-0 h1">PORTFOLIO</span>
             </a></h1>
@@ -27,20 +35,27 @@
             </li>
         </ul>
     </nav>
+<!-- navbar closes   -->
+
+<!-- Main Page Starts   -->
+   <!--  Enter your name here and your image, make sure you place your image in img folder renamed to personal.png (necessary) and you can chamge the specifications too. -->
     <center>
         <h1 class="front-name">ANSHUL CHAUDHARY</h1>
-        <!--         <hr class="front-name-hr">-->
-        <img class="front-name-img" src="img/2.png" alt="">
+        <!--     <hr class="front-name-hr">  -->
+        <img class="front-name-img" src="img/personal.png" alt="">
         <h2 class="front-nameh2">Web Developer - Photographer - UI/UX</h2>
     </center>
+<!-- Main Page Ends   -->
 
 
 
-    <!--project -->
+
+<!--project starts-->
+    <!--  Change the name from WORK if you want to name it something else, or you can keep it this way as well. To change the image see the <img> tag and put the name of your image inplace of cabin.png/cake.png etc. remember to put those images in img folder only.
+    Right now it can only take 6 images and also that images should be specifically 900*650 pixels only. -->
     <div class='projects'>
         <center>
             <hr class="fromt-work-hr">
-
             <h1 class="front-work">WORK</h1>
 
             <div class="grid-container">
@@ -66,27 +81,55 @@
             </div>
         </center>
     </div>
+<!-- projects ends -->
 
-
-    <!--About ME-->
+<!-- About me starts -->
+    <!--  Here change the paragraph between <p> tag and you can completely remove the one present and enter some information about you that you want to display.
+    -->
     <div class='about'>
         <center>
             <h1 class="about-name">ABOUT</h1>
-              <hr class="about-hr">
-               <p class="about-p"> Hey!!! In this section you can post about yoursef and also remove the below part. This website is free to use, to promote open soruces. You all are welcome to use this website and have the permission to modfy it according to user's preference, except the credit part and please feel free reach about any query and to change the content and use it as your own personal portfolio.</p>
-               <br>
-               <p class="about-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <hr class="about-hr">
+            <p class="about-p"> Hey!!! In this section you can post about yoursef and also remove the below part. This website is free to use, to promote open soruces. You all are welcome to use this website and have the permission to modfy it according to user's preference, except the credit part and please feel free reach about any query and to change the content and use it as your own personal portfolio.</p>
+            <br>
+            <p class="about-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </center>
     </div>
-    
+<!-- About me Ends -->
+
 <!--  Contact me page  -->
     <div class="contact">
         <center>
-            <h1 class=""></h1>
+            <h1 class="contact-name">CONTACT ME</h1>
+            <form action="mailto:example@mail.com">
+                <label class="contact-labels">Your Name</label>
+                <br>
+                <input name="yourname" class="contact-input" type="text">
+                <br>
+                <label class="contact-labels">Your Email</label>
+                <br>
+                <input name="youremail" class="contact-input" type="email">
+                <br>
+                <label class="contact-labels">Your Message</label>
+                <br>
+                <textarea name='yourmessage' rows='8' cols="48" style="padding: 5px;"></textarea>
+                <br>
+                <input type="submit" value="Send Message">
+            </form>
+        </center>
+    </div>
+<!--  Contact me Ends  -->
+
+<!--footer -->
+    <!-- Please type in your name and year in footer also DO NOT REMOVE THE CREDITS PART.  -->
+    <div class="footer">
+        <center>
+            <p style="text-align-last: center" class="footer-p1">Copyright © Your Name 20XX</p>
+            <br>
+            <p style="text-align-last: center" class="footer-p2">Credits @ <a class="footer-a" href="#">Anshul Chaudhary</a> 2021</p>
 
         </center>
     </div>
-
+<!-- footer -->
 </body>
-
 </html>

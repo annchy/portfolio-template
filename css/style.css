@@ -5,7 +5,7 @@
 }
 
 
-.nav-item {
+.nav-link {
     color: #eeeeee;
 }
 
@@ -54,20 +54,18 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 25vw);
-    grid-gap: 5px;
+    grid-template-rows: repeat(2, 25vw);
 
 }
 
 .project-img {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
     object-fit: cover;
 }
 
 .about {
     margin: 50px;
-    position: absolute;
     border: 5px solid #212529;
     padding-top: 30px;
     padding-top: 30px;
@@ -78,6 +76,7 @@
 }
 
 .about-p {
+    text-indent: 30px;
     font: 25px Lucida Console, Monospace;
     padding-left: 30px;
     padding-right: 30px;
@@ -86,4 +85,65 @@
 .about-hr {
     color: #ffbd39;
     size: 50px;
+}
+
+.contact {
+    margin: 50px;
+    background-color: #212529;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+
+.contact-name {
+    margin: 30px;
+    font: 40px Copperplate, Fantasy;
+    color: #eeeeee;
+}
+
+.contat-form {
+    color: #eeeeee;
+}
+
+.contact-labels {
+    color: #eeeeee;
+    font: 25px Lucida Console, Monospace;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact-input {
+    color: black;
+    padding: 5px;
+}
+
+input[type=submit] {
+    background-color: transparent;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    padding: 10px 30px;
+    color: #FFFFFF;
+}
+
+input[type=submit]:hover {
+    color: #ffbd39;
+    border: 2px solid #ffbd39;
+
+}
+
+.footer {
+    background-color: #212529;
+    padding: 5px;
+}
+
+.footer-p1 {
+    font: 20px Lucida Console, Monospace;
+    color: #eeeeee;
+}
+.footer-p2 {
+    font-size: 15px;
+    color: #eeeeee;
+}
+
+.footer-a:hover {
+    color: #ffbd39;
 }
