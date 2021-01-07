@@ -3,10 +3,10 @@
 Open source Portfolio Website. It is free and accessible to anyone. Just fork the repo, download the content and change it according to user preference.
 For any query please contact.
 
-You will get all the information on how to change this website according to your need in [index.html](https://github.com/annchy/portfolio-template/blob/main/index.html) file
+You will get all the information on how to change this website according to your need in [index.html](https://github.com/anschy/portfolio-template/blob/main/index.html) file
 
 # Demo
-[Visit the Portfolio Template](https://annchy.github.io/portfolio-template/)
+[Visit the Portfolio Template](https://anschy.github.io/portfolio-template/)
 
 # Note
 _the website will be updated timely with the additional features._
